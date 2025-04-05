@@ -8,6 +8,7 @@ html, body {
   align-items: center;
   justify-content: center;
   background-color: #F55A5A;
+  height: 55px;
 }
 
 .globe-icon {
