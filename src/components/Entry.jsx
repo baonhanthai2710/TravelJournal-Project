@@ -4,7 +4,7 @@ export default function Entry(props) {
     return (
         <article className="main-container">
             <div className="img-container">
-                <img src= {props.img} alt="mount-fuji-img" className="mount-fuji-img"/>
+                <img src= {props.img} alt={props.alt} className="mount-fuji-img"/>
             </div>
             <div className="text-block">
                 <FaMapMarkerAlt className="marker-icon" alt="marker icon" />
