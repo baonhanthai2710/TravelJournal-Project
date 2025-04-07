@@ -3,9 +3,10 @@ import Entry from "./components/Entry"
 import TravelData from "./data"
 
 export default function App() {
-  
+
   const travelElements = TravelData.map((travel) => {
     return <Entry 
+              key = {travel.id}
               img = {travel.img}
               alt = {travel.alt}
               title = {travel.title}
