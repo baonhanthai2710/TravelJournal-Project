@@ -7,7 +7,7 @@ export default function App() {
   const travelElements = TravelData.map((travel) => {
     return <Entry 
               key = {travel.id}
-              object = {travel}
+              {...travel}
     /> 
   })
 
