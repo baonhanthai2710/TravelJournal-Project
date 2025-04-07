@@ -33,6 +33,7 @@ html, body {
 /* main */
 article.main-container {
   display: flex;
+  margin-bottom: 36px;
 }
 
 .img-container {
